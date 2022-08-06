@@ -1,14 +1,14 @@
-def create_and_activate_user(name)
-  user = User.create!(name:, email: 'test@gmail.com', password: 'password')
+def create_and_activate_user(_name)
+  user = User.create!(name: 'user', email: 'test@gmail.com', password: 'password')
   user.save!
   user
 end
 
-def create_recipes_for_user(user, count: 1)
+def create_recipes_for_user(_user, count: 1)
   recipes = []
   count.times do |i|
     recipes << Recipe.create!(
-      user:,
+      user: 'user',
       name: "Recipe #{i}",
       cooking_time: 1,
       preparation_time: 1,
@@ -19,11 +19,11 @@ def create_recipes_for_user(user, count: 1)
   recipes
 end
 
-def create_foods_for_user(user, count: 1)
+def create_foods_for_user(_user, count: 1)
   foods = []
   count.times do |i|
     foods << Food.create!(
-      user:,
+      user: 'user',
       name: "Food #{i}",
       measurement_unit: 'kg',
       price: 5

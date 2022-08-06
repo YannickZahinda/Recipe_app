@@ -1,4 +1,4 @@
-class FoodsController < ApplicationController # rubocop:todo Layout/EndOfLine
+class FoodsController < ApplicationController
   before_action :authenticate_user!
 
   def index
