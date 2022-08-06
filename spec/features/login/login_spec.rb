@@ -1,4 +1,4 @@
-require 'rails_helper' # rubocop:todo Layout/EndOfLine
+require 'rails_helper'
 RSpec.feature 'Login', type: :feature do
   it 'can enter a name and receive a greeting' do
     visit user_session_path

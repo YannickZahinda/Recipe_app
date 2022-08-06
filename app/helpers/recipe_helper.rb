@@ -1,2 +1,2 @@
-module RecipeHelper # rubocop:todo Layout/EndOfLine
+module RecipeHelper
 end

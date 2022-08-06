@@ -1,2 +1,2 @@
-module FoodHelper # rubocop:todo Layout/EndOfLine
+module FoodHelper
 end

@@ -1,4 +1,4 @@
-class UserController < ApplicationController # rubocop:todo Layout/EndOfLine
+class UserController < ApplicationController
   def index
     @user = current_user
   end

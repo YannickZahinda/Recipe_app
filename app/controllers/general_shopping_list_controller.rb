@@ -1,4 +1,4 @@
-class GeneralShoppingListController < ApplicationController # rubocop:todo Layout/EndOfLine
+class GeneralShoppingListController < ApplicationController
   before_action :authenticate_user!
   def index
     @food_amount = 0

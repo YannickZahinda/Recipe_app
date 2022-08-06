@@ -1,4 +1,4 @@
-require 'rails_helper' # rubocop:todo Layout/EndOfLine
+require 'rails_helper'
 
 RSpec.describe RecipeFood, type: :model do
   let(:user) { User.create(name: 'Ben', email: 'example@mail.com', password: 'password') }

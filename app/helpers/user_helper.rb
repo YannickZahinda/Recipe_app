@@ -1,2 +1,2 @@
-module UserHelper # rubocop:todo Layout/EndOfLine
+module UserHelper
 end

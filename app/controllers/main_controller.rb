@@ -1,3 +1,3 @@
-class MainController < ApplicationController # rubocop:todo Layout/EndOfLine
+class MainController < ApplicationController
   def index; end
 end
