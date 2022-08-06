@@ -98,6 +98,10 @@ a {
   cursor: pointer;
 }
 
-.line_btn{
+.line_btn {
+  color: #1f2f35;
+}
+
+.form-label {
   color: #1f2f35;
 }
