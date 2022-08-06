@@ -1,4 +1,4 @@
-class User < ApplicationRecord
+class User < ApplicationRecord # rubocop:todo Layout/EndOfLine
   has_many :foods
   has_many :recipes
 

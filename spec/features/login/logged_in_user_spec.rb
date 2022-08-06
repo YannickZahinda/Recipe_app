@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'rails_helper' # rubocop:todo Layout/EndOfLine
 require 'helpers/model_helper'
 
 RSpec.feature 'Login Page' do

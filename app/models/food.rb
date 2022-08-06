@@ -1,4 +1,4 @@
-class Food < ApplicationRecord # rubocop:todo Layout/EndOfLine
+class Food < ApplicationRecord
   belongs_to :user
 
   validates :name, presence: true, length: { in: 1..20 }

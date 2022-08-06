@@ -1,4 +1,4 @@
-class RecipesController < ApplicationController
+class RecipesController < ApplicationController # rubocop:todo Layout/EndOfLine
   before_action :authenticate_user!, except: :public_recipes
 
   def public_recipes

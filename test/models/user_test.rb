@@ -1,4 +1,4 @@
-require 'test_helper' # rubocop:todo Layout/EndOfLine
+require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   # test "the truth" do
